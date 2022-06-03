@@ -6,7 +6,7 @@ const express = require("express");
 const formidable = require("express-formidable");
 // Cross-origin resource sharing
 const cors = require("cors");
-// affichage des logs transitant dans le serveur dans le terminal (+ L14)
+// affichage des logs transitant dans le serveur dans le terminal
 const morgan = require("morgan");
 
 const mongoose = require("mongoose");
